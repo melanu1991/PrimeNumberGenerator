@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		584B1873219093EB002B6CE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584B1872219093EB002B6CE1 /* AppDelegate.swift */; };
-		584B1875219093EB002B6CE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584B1874219093EB002B6CE1 /* ViewController.swift */; };
 		584B1878219093EB002B6CE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584B1876219093EB002B6CE1 /* Main.storyboard */; };
 		584B187A219093EC002B6CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584B1879219093EC002B6CE1 /* Assets.xcassets */; };
 		584B187D219093EC002B6CE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584B187B219093EC002B6CE1 /* LaunchScreen.storyboard */; };
+		584B1885219097CC002B6CE1 /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584B1884219097CC002B6CE1 /* GeneratorViewController.swift */; };
+		584B1887219097D3002B6CE1 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584B1886219097D3002B6CE1 /* HistoryViewController.swift */; };
+		584B18902190A106002B6CE1 /* GeneratorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584B188F2190A106002B6CE1 /* GeneratorPresenter.swift */; };
+		584B18922190A126002B6CE1 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584B18912190A126002B6CE1 /* Protocols.swift */; };
+		584B18952190A22D002B6CE1 /* PrimeNumberGeneratorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584B18942190A22D002B6CE1 /* PrimeNumberGeneratorService.swift */; };
+		585DEA5F219201E700964F88 /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585DEA5E219201E700964F88 /* CacheService.swift */; };
+		585DEA6321921DE800964F88 /* PrimeNumberGenerator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 585DEA6121921DE800964F88 /* PrimeNumberGenerator.xcdatamodeld */; };
+		585DEA6521921F1900964F88 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585DEA6421921F1900964F88 /* CoreDataStack.swift */; };
+		585DEA672192215300964F88 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585DEA662192215300964F88 /* CoreDataManager.swift */; };
+		589576542190E6560077BCCA /* CacheModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589576532190E6560077BCCA /* CacheModel.swift */; };
+		589576562190E6690077BCCA /* HistoryViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589576552190E6690077BCCA /* HistoryViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		584B186F219093EB002B6CE1 /* PrimeNumberGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeNumberGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		584B1872219093EB002B6CE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		584B1874219093EB002B6CE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		584B1877219093EB002B6CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		584B1879219093EC002B6CE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		584B187C219093EC002B6CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		584B187E219093EC002B6CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584B1884219097CC002B6CE1 /* GeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorViewController.swift; sourceTree = "<group>"; };
+		584B1886219097D3002B6CE1 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		584B188F2190A106002B6CE1 /* GeneratorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorPresenter.swift; sourceTree = "<group>"; };
+		584B18912190A126002B6CE1 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		584B18942190A22D002B6CE1 /* PrimeNumberGeneratorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumberGeneratorService.swift; sourceTree = "<group>"; };
+		585DEA5E219201E700964F88 /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
+		585DEA6221921DE800964F88 /* PrimeNumberGenerator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrimeNumberGenerator.xcdatamodel; sourceTree = "<group>"; };
+		585DEA6421921F1900964F88 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		585DEA662192215300964F88 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		589576532190E6560077BCCA /* CacheModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheModel.swift; sourceTree = "<group>"; };
+		589576552190E6690077BCCA /* HistoryViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,112 @@
 		584B1871219093EB002B6CE1 /* PrimeNumberGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				584B1872219093EB002B6CE1 /* AppDelegate.swift */,
-				584B1874219093EB002B6CE1 /* ViewController.swift */,
-				584B1876219093EB002B6CE1 /* Main.storyboard */,
-				584B1879219093EC002B6CE1 /* Assets.xcassets */,
-				584B187B219093EC002B6CE1 /* LaunchScreen.storyboard */,
-				584B187E219093EC002B6CE1 /* Info.plist */,
+				584B188A2190982B002B6CE1 /* AppDelegate */,
+				585DEA6021921DB700964F88 /* DataBase */,
+				589576522190E5E40077BCCA /* Models */,
+				584B18932190A208002B6CE1 /* Services */,
+				584B1888219097D7002B6CE1 /* ViewControllers */,
+				584B188921909823002B6CE1 /* Storyboards */,
+				584B188B21909834002B6CE1 /* Resources */,
+				584B188C2190983B002B6CE1 /* Configurations */,
 			);
 			path = PrimeNumberGenerator;
+			sourceTree = "<group>";
+		};
+		584B1888219097D7002B6CE1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				584B188E21909BBF002B6CE1 /* Generator */,
+				584B188D21909BB8002B6CE1 /* History */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		584B188921909823002B6CE1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				584B1876219093EB002B6CE1 /* Main.storyboard */,
+				584B187B219093EC002B6CE1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		584B188A2190982B002B6CE1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				584B1872219093EB002B6CE1 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		584B188B21909834002B6CE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				584B1879219093EC002B6CE1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		584B188C2190983B002B6CE1 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				584B187E219093EC002B6CE1 /* Info.plist */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		584B188D21909BB8002B6CE1 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				589576512190E5DE0077BCCA /* ViewModels */,
+				584B1886219097D3002B6CE1 /* HistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		584B188E21909BBF002B6CE1 /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				584B1884219097CC002B6CE1 /* GeneratorViewController.swift */,
+				584B188F2190A106002B6CE1 /* GeneratorPresenter.swift */,
+				584B18912190A126002B6CE1 /* Protocols.swift */,
+			);
+			path = Generator;
+			sourceTree = "<group>";
+		};
+		584B18932190A208002B6CE1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				584B18942190A22D002B6CE1 /* PrimeNumberGeneratorService.swift */,
+				585DEA5E219201E700964F88 /* CacheService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		585DEA6021921DB700964F88 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				585DEA6121921DE800964F88 /* PrimeNumberGenerator.xcdatamodeld */,
+				585DEA6421921F1900964F88 /* CoreDataStack.swift */,
+				585DEA662192215300964F88 /* CoreDataManager.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		589576512190E5DE0077BCCA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				589576552190E6690077BCCA /* HistoryViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		589576522190E5E40077BCCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				589576532190E6560077BCCA /* CacheModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +253,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				584B1875219093EB002B6CE1 /* ViewController.swift in Sources */,
+				584B18922190A126002B6CE1 /* Protocols.swift in Sources */,
+				584B1887219097D3002B6CE1 /* HistoryViewController.swift in Sources */,
+				584B1885219097CC002B6CE1 /* GeneratorViewController.swift in Sources */,
+				584B18902190A106002B6CE1 /* GeneratorPresenter.swift in Sources */,
+				585DEA6321921DE800964F88 /* PrimeNumberGenerator.xcdatamodeld in Sources */,
+				584B18952190A22D002B6CE1 /* PrimeNumberGeneratorService.swift in Sources */,
+				585DEA672192215300964F88 /* CoreDataManager.swift in Sources */,
+				585DEA6521921F1900964F88 /* CoreDataStack.swift in Sources */,
+				589576542190E6560077BCCA /* CacheModel.swift in Sources */,
 				584B1873219093EB002B6CE1 /* AppDelegate.swift in Sources */,
+				585DEA5F219201E700964F88 /* CacheService.swift in Sources */,
+				589576562190E6690077BCCA /* HistoryViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +410,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MS24KQ88UZ;
-				INFOPLIST_FILE = PrimeNumberGenerator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PrimeNumberGenerator/Configurations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MS24KQ88UZ;
-				INFOPLIST_FILE = PrimeNumberGenerator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PrimeNumberGenerator/Configurations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,6 +462,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		585DEA6121921DE800964F88 /* PrimeNumberGenerator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				585DEA6221921DE800964F88 /* PrimeNumberGenerator.xcdatamodel */,
+			);
+			currentVersion = 585DEA6221921DE800964F88 /* PrimeNumberGenerator.xcdatamodel */;
+			path = PrimeNumberGenerator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 584B1867219093EB002B6CE1 /* Project object */;
 }
